@@ -11,9 +11,27 @@ function App() {
     refrigerator_style: '',
   });
 
+  const { room_shape, counter_top, refrigerator_style } = kitchenPostData;
+
   const handleSubmit = (e) => {
     e.preventDefault();
-    console.log(kitchenPostData);
+    axios
+      .post(
+        'http://127.0.0.1:8000/api/kitchen/',
+        {
+          room_shape: room_shape,
+          counter_top: counter_top,
+          refrigerator_style: refrigerator_style,
+        },
+        {
+          headers: {
+            Authorization: `AUTHORIZATION_KEY`,
+            'Content-Type': 'application/json',
+          },
+        }
+      )
+      .then((res) => console.log(res))
+      .catch((error) => console.log(error));
   };
 
   useEffect(() => {
@@ -23,7 +41,6 @@ function App() {
       .catch((err) => console.log(err));
   }, [kitchenInfo]);
 
-  const { room_shape, counter_top, refrigerator_style } = kitchenPostData;
   return (
     <div>
       <div className='form_container'>
