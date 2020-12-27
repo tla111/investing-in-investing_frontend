@@ -8,13 +8,22 @@ function App() {
   useEffect(() => {
     axios
       .get('http://127.0.0.1:8000/api/kitchen/')
-      .then((res) => console.log(res))
+      .then((res) => setKitchenInfo(res.data))
       .catch((err) => console.log(err));
   }, []);
 
   return (
     <div>
-      <h1>Hello World</h1>
+      <ul>
+        {kitchenInfo.map((item) => (
+          <div key={item.id}>
+            <li>Room Shape: {item.room_shape}</li>
+            <li>Refrigerator Style: {item.refrigerator_style}</li>
+            <li>Counter Top: {item.counter_top}</li>
+            <br></br>
+          </div>
+        ))}
+      </ul>
     </div>
   );
 }
