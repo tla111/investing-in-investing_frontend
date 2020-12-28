@@ -32,6 +32,16 @@ function App() {
       )
       .then((res) => console.log(res))
       .catch((error) => console.log(error));
+
+    clear();
+  };
+
+  const clear = () => {
+    setKitchenPostData({
+      room_shape: '',
+      counter_top: '',
+      refrigerator_style: '',
+    });
   };
 
   useEffect(() => {
@@ -45,42 +55,50 @@ function App() {
     <div>
       <div className='form_container'>
         <Form onSubmit={handleSubmit}>
-          <input
-            className='form-control'
-            type='text'
-            placeholder='Room Shape'
-            value={room_shape}
-            onChange={(e) => {
+          <label>Room Type</label>
+          <select
+            onChange={(e) =>
               setKitchenPostData({
                 ...kitchenPostData,
                 room_shape: e.target.value,
-              });
-            }}
-          />
-          <input
-            className='form-control'
-            type='text'
-            placeholder='Refrigerator Style'
-            value={refrigerator_style}
-            onChange={(e) => {
+              })
+            }
+          >
+            <option value=''>--Please choose an option--</option>
+            <option value='Linear (Two Parallel Lines)'>
+              Linear (Two Parallel Lines)
+            </option>
+            <option value='U-shaped'> U-shaped</option>
+            <option value='L-shaped'> L-shaped</option>
+          </select>
+          <label>Refrigerator Style</label>
+          <select
+            onChange={(e) =>
               setKitchenPostData({
                 ...kitchenPostData,
                 refrigerator_style: e.target.value,
-              });
-            }}
-          />
-          <input
-            className='form-control'
-            type='text'
-            placeholder='Counter Top'
-            value={counter_top}
-            onChange={(e) => {
+              })
+            }
+          >
+            <option value=''>--Please choose an option--</option>
+            <option value='Side-By-Side'> Side-By-Side</option>
+            <option value='Bottom-Freezer'> Bottom-Freezer</option>
+            <option value='Top-Freezer'> Top-Freezer</option>
+          </select>
+          <label>Counter Top</label>
+          <select
+            onChange={(e) =>
               setKitchenPostData({
                 ...kitchenPostData,
                 counter_top: e.target.value,
-              });
-            }}
-          />
+              })
+            }
+          >
+            <option value=''>--Please choose an option--</option>
+            <option value='Granite'> Granite</option>
+            <option value='Quartz'> Quartz</option>
+            <option value='Wood'> Wood</option>
+          </select>
           <Button variant='primary' type='submit'>
             Submit
           </Button>
