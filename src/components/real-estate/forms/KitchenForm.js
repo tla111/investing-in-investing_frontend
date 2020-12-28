@@ -1,46 +1,21 @@
 import React, { useState } from 'react';
 import { Form, Button } from 'react-bootstrap';
-import axios from 'axios';
+import { useDispatch } from 'react-redux';
+import { createKitchen } from '../../../actions/kitchenposts';
 import './forms.css';
 
 function KitchenForm() {
+  const dispatch = useDispatch();
+
   const [kitchenPostData, setKitchenPostData] = useState({
     room_shape: '',
     counter_top: '',
     refrigerator_style: '',
   });
 
-  const { room_shape, counter_top, refrigerator_style } = kitchenPostData;
-
   const handleSubmit = (e) => {
     e.preventDefault();
-    axios
-      .post(
-        'http://127.0.0.1:8000/api/kitchen/',
-        {
-          room_shape: room_shape,
-          counter_top: counter_top,
-          refrigerator_style: refrigerator_style,
-        },
-        {
-          headers: {
-            Authorization: `AUTHORIZATION_KEY`,
-            'Content-Type': 'application/json',
-          },
-        }
-      )
-      .then((res) => console.log(res))
-      .catch((error) => console.log(error));
-
-    clear();
-  };
-
-  const clear = () => {
-    setKitchenPostData({
-      room_shape: '',
-      counter_top: '',
-      refrigerator_style: '',
-    });
+    dispatch(createKitchen(kitchenPostData));
   };
 
   return (

@@ -1,20 +1,21 @@
 import React, { useState, useEffect } from 'react';
-import axios from 'axios';
+import { useSelector } from 'react-redux';
 
 const KitchenData = () => {
-  const [kitchenInfo, setKitchenInfo] = useState([]);
+  const kitchenPosts = useSelector((state) => state.kitchenReducer);
+  // const [kitchenInfo, setKitchenInfo] = useState([]);
 
-  useEffect(() => {
-    axios
-      .get('http://127.0.0.1:8000/api/kitchen/')
-      .then((res) => setKitchenInfo(res.data))
-      .catch((err) => console.log(err));
-  }, []);
+  // useEffect(() => {
+  //   axios
+  //     .get('http://127.0.0.1:8000/api/kitchen/')
+  //     .then((res) => setKitchenInfo(res.data))
+  //     .catch((err) => console.log(err));
+  // }, []);
 
   return (
     <div>
       <ul>
-        {kitchenInfo.map((item) => (
+        {kitchenPosts.map((item) => (
           <div key={item.id}>
             <li>id: {item.id}</li>
             <li>Room Shape: {item.room_shape}</li>
