@@ -1,10 +1,9 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 import { Form, Button } from 'react-bootstrap';
 import axios from 'axios';
 import './forms.css';
 
 function KitchenForm() {
-  const [kitchenInfo, setKitchenInfo] = useState([]);
   const [kitchenPostData, setKitchenPostData] = useState({
     room_shape: '',
     counter_top: '',
@@ -43,13 +42,6 @@ function KitchenForm() {
       refrigerator_style: '',
     });
   };
-
-  useEffect(() => {
-    axios
-      .get('http://127.0.0.1:8000/api/kitchen/')
-      .then((res) => setKitchenInfo(res.data))
-      .catch((err) => console.log(err));
-  }, []);
 
   return (
     <div>

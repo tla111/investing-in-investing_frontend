@@ -1,14 +1,18 @@
 import React from 'react';
+import { Row, Col } from 'react-bootstrap';
 import KitchenForm from '../forms/KitchenForm';
+import KitchenData from '../rooms/kitchen/KitchenData';
 
 const RealEstate = () => {
   return (
-    <div>
-      <div className='forms_container'>
+    <Row>
+      <Col className='forms_container'>
         <KitchenForm />
-      </div>
-      <div className='room_data_container'></div>
-    </div>
+      </Col>
+      <Col className='room_data_container'>
+        <KitchenData />
+      </Col>
+    </Row>
   );
 };
 

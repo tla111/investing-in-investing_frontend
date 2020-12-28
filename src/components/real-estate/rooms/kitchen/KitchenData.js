@@ -1,9 +1,19 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
+import axios from 'axios';
 
 const KitchenData = () => {
+  const [kitchenInfo, setKitchenInfo] = useState([]);
+
+  useEffect(() => {
+    axios
+      .get('http://127.0.0.1:8000/api/kitchen/')
+      .then((res) => setKitchenInfo(res.data))
+      .catch((err) => console.log(err));
+  }, []);
+
   return (
     <div>
-      {/* <ul>
+      <ul>
         {kitchenInfo.map((item) => (
           <div key={item.id}>
             <li>id: {item.id}</li>
@@ -13,7 +23,7 @@ const KitchenData = () => {
             <br></br>
           </div>
         ))}
-      </ul> */}
+      </ul>
     </div>
   );
 };
