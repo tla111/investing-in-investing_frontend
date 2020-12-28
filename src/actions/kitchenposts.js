@@ -13,19 +13,11 @@ export const getKitchenPosts = () => async (dispatch) => {
 
 export const createKitchen = (post) => async (dispatch) => {
   try {
-    const {
-      counter_top,
-      room_shape,
-      id,
-      refrigerator_style,
-    } = await api.createKitchenPost(post);
+    const { data } = await api.createKitchenPost(post);
 
     dispatch({
       type: CREATE_KITCHEN,
-      payload: counter_top,
-      room_shape,
-      id,
-      refrigerator_style,
+      payload: data,
     });
   } catch (error) {
     console.log(error);
