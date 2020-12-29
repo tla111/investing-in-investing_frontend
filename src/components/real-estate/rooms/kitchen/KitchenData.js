@@ -8,7 +8,8 @@ const KitchenData = () => {
 
   useEffect(() => {
     axios
-      .get('http://127.0.0.1:8000/api/kitchen/')
+      // .get('https://investing-in-investing.herokuapp.com/api/kitchen')
+      .get('http://127.0.0.1:8000/api/kitchen')
       .then((res) => setKitchenInfo(res.data))
       .catch((err) => console.log(err));
   }, [kitchenInfo]);
