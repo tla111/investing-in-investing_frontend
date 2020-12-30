@@ -5,7 +5,7 @@
 }
 
 .columns {
-  border: 1px solid white;
+  /* border: 1px solid white; */
   background-color: black;
   height: 35vh;
   display: flex;
@@ -23,6 +23,7 @@
 .columns h5 {
   background-color: dodgerblue;
   margin-top: 5px;
+  border: 2px solid white;
 }
 
 .first_column {
@@ -110,4 +111,19 @@
 
 .status_container h2 {
   color: white;
+}
+
+.column_header {
+  background: #005c97; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #363795,
+    #005c97
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #363795,
+    #005c97
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  border: 2px solid white;
 }

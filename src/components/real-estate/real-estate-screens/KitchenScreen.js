@@ -8,10 +8,10 @@ const KitchenScreen = () => {
     <div className='real_estate_screen'>
       <Container fluid>
         <Row>
-          <Col className='columns' md={2}>
+          <Col className='columns column_header' md={2}>
             <h4>Kitchen Type:</h4>
           </Col>
-          <Col className='columns'>
+          <Col className='columns '>
             <h5>Linear (Two Parallel Lines)</h5>
             <div className='image_type_1'></div>
           </Col>
@@ -25,7 +25,7 @@ const KitchenScreen = () => {
           </Col>
         </Row>
         <Row>
-          <Col className='columns' md={2}>
+          <Col className='columns column_header' md={2}>
             <h4>Refrigerator Style:</h4>
           </Col>
           <Col className='columns'>
@@ -42,7 +42,7 @@ const KitchenScreen = () => {
           </Col>
         </Row>
         <Row>
-          <Col className='columns' md={2}>
+          <Col className='columns column_header' md={2}>
             <h4>Countertop:</h4>
           </Col>
           <Col className='columns'>
