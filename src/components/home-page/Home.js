@@ -1,4 +1,6 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
+
 import { Container, Row, Col, Button } from 'react-bootstrap';
 import './home.css';
 
@@ -16,7 +18,11 @@ const Home = () => {
           <div className='section_box'>
             {/* <h1>What are you investing in your investment?</h1> */}
             <h3>WHAT ARE YOU INVESTING IN FOR YOUR INVESTMENT?</h3>
-            <Button>LEARN MORE</Button>
+            <Button>
+              <Link to='/realestate' className='link_button'>
+                LEARN MORE
+              </Link>
+            </Button>
           </div>
         </Col>
       </Row>

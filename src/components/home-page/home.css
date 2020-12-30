@@ -69,3 +69,13 @@
   background-color: black;
   border: none;
 }
+
+.link_button {
+  color: white;
+}
+
+.section_box button:hover,
+.link_button:hover {
+  text-decoration: none;
+  background-color: greenyellow;
+}
