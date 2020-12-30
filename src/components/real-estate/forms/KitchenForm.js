@@ -70,7 +70,6 @@ function KitchenForm() {
             Submit
           </Button>
         </Form>
-        <h6 className='status'>Status: Form Submitted</h6>
       </div>
     </div>
   );

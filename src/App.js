@@ -5,7 +5,7 @@ import './App.css';
 
 import Home from './components/home-page/Home';
 import Navigation from './components/navigation/Navigation';
-import RealEstate from './components/real-estate/real-estate-screen/RealEstate';
+import KitchenScreen from './components/real-estate/real-estate-screens/KitchenScreen';
 
 function App() {
   return (
@@ -14,12 +14,18 @@ function App() {
         <Route exact path='/'>
           <Home />
         </Route>
-        <Route exact path='/realestate'>
+        <Route exact path='/kitchen'>
           <Navigation />
-          <RealEstate />
+          <KitchenScreen />
         </Route>
-        <Route exact path='/stock'></Route>
-        <Route exact path='/cars'></Route>
+        <Route exact path='/livingroom'>
+          <Navigation />
+          <KitchenScreen />
+        </Route>
+        <Route exact path='/bedroom'>
+          <Navigation />
+          <KitchenScreen />
+        </Route>
       </Switch>
     </Router>
   );

@@ -1,15 +1,3 @@
-.link_buttons {
-  margin: 10px;
-  width: 150px;
-  height: 50px;
-  background-color: black;
-}
-
-.link_buttons:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 10px 20px rgba(255, 255, 255, 0.5);
-}
-
-.link_buttons a {
-  text-decoration: none;
+li {
+  font-size: large;
 }

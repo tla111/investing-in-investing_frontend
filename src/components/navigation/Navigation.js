@@ -14,18 +14,18 @@ const Navigation = () => {
           </Link>
         </li>
         <li className='nav-item'>
-          <Link to='/realestate' className='nav-link'>
-            Real Estate
+          <Link to='/kitchen' className='nav-link'>
+            Kitchen
           </Link>
         </li>
         <li className='nav-item'>
-          <Link to='/stocks' className='nav-link' href='#'>
-            Stocks
+          <Link to='/livingroom' className='nav-link' href='#'>
+            Living Room
           </Link>
         </li>
         <li className='nav-item'>
-          <Link to='/cars' className='nav-link'>
-            Cars
+          <Link to='/bedroom' className='nav-link'>
+            Bedroom
           </Link>
         </li>
       </ul>

@@ -19,7 +19,7 @@ const Home = () => {
             {/* <h1>What are you investing in your investment?</h1> */}
             <h4>WHAT ARE YOU INVESTING IN FOR YOUR INVESTMENT?</h4>
             <button className='section_box_btn'>
-              <Link to='/realestate' className='link_button'>
+              <Link to='/kitchen' className='link_button'>
                 LEARN MORE
               </Link>
             </button>

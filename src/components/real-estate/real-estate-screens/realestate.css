@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+.real_estate_screen {
+  background-color: black;
+}
+
+.columns {
+  border: 1px solid white;
+  background-color: black;
+  height: 35vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+.columns h4,
+.columns h5 {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.columns h5 {
+  background-color: dodgerblue;
+  margin-top: 5px;
+}
+
+.first_column {
+  display: flex;
+  /* align-items: center; */
+  justify-content: center;
+}
+
+.kitchen_type_1 {
+  background-image: url('./images/linear-kitchen.jpg');
+  background-size: cover;
+  height: 100%;
+}
+
+.bottom_row {
+  /* border: 1px solid red; */
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.status_container {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  border: 1px solid white;
+  padding: 10px;
+}
