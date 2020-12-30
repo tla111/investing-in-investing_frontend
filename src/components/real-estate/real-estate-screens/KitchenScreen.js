@@ -18,10 +18,12 @@ const KitchenScreen = () => {
             <div className='kitchen_type_1'></div>
           </Col>
           <Col className='columns'>
-            <div className='kitchen_type_1'></div>
+            <h5>U-Shaped</h5>
+            <div className='kitchen_type_2'></div>
           </Col>
           <Col className='columns'>
-            <div className='kitchen_type_1'></div>
+            <h5>L-Shaped</h5>
+            <div className='kitchen_type_3'></div>
           </Col>
         </Row>
         <Row>
