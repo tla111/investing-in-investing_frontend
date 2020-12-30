@@ -63,19 +63,18 @@
   margin-top: 5px;
 }
 
-.section_box button {
+.section_box_btn {
   height: 40px;
   margin-bottom: 5px;
-  background-color: black;
-  border: none;
 }
 
 .link_button {
   color: white;
 }
 
-.section_box button:hover,
+.section_box_btn:hover,
 .link_button:hover {
   text-decoration: none;
-  background-color: greenyellow;
+  color: white;
+  background-color: red;
 }

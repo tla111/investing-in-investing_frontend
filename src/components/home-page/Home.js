@@ -18,7 +18,7 @@ const Home = () => {
           <div className='section_box'>
             {/* <h1>What are you investing in your investment?</h1> */}
             <h3>WHAT ARE YOU INVESTING IN FOR YOUR INVESTMENT?</h3>
-            <Button>
+            <Button className='section_box_btn btn-dark'>
               <Link to='/realestate' className='link_button'>
                 LEARN MORE
               </Link>
