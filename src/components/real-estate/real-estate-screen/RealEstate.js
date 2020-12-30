@@ -1,7 +1,7 @@
 import React from 'react';
 import { Container, Row } from 'react-bootstrap';
 import KitchenForm from '../forms/KitchenForm';
-import KitchenData from '../rooms/kitchen/KitchenData';
+// import KitchenData from '../rooms/kitchen/KitchenData';
 
 const RealEstate = () => {
   return (
@@ -9,9 +9,9 @@ const RealEstate = () => {
       <Row className='forms_container'>
         <KitchenForm />
       </Row>
-      <Row className='room_data_container'>
+      {/* <Row className='room_data_container'>
         <KitchenData />
-      </Row>
+      </Row> */}
     </Container>
   );
 };

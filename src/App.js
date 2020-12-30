@@ -19,6 +19,7 @@ function App() {
           <RealEstate />
         </Route>
         <Route exact path='/stock'></Route>
+        <Route exact path='/cars'></Route>
       </Switch>
     </Router>
   );

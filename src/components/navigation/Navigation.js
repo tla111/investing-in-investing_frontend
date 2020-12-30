@@ -1,20 +1,36 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import { Nav } from 'react-bootstrap';
+import 'bootswatch/dist/cerulean/bootstrap.min.css';
 import './nav.css';
 
 const Navigation = () => {
   return (
-    <div>
-      <button className='btn btn-lg link_buttons'>
-        <Link to='/'>Home</Link>
-      </button>
-      <button className='btn btn-lg link_buttons'>
-        <Link to='/realestate'>Real Estate</Link>
-      </button>
-      <button className='btn btn-lg link_buttons'>
-        <Link to='/stocks'>Stocks</Link>
-      </button>
-    </div>
+    <Nav className='navbar navbar-expand-lg navbar-dark bg-dark'>
+      <ul className='navbar-nav mx-auto'>
+        <li className='nav-item active'>
+          <Link to='/' className='nav-link'>
+            Home
+            <span className='sr-only'>(current)</span>
+          </Link>
+        </li>
+        <li className='nav-item'>
+          <Link to='/realestate' className='nav-link'>
+            Real Estate
+          </Link>
+        </li>
+        <li className='nav-item'>
+          <Link to='/stocks' className='nav-link' href='#'>
+            Stocks
+          </Link>
+        </li>
+        <li className='nav-item'>
+          <Link to='/cars' className='nav-link'>
+            Cars
+          </Link>
+        </li>
+      </ul>
+    </Nav>
   );
 };
 
