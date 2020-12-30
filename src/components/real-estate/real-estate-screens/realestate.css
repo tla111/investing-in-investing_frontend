@@ -17,6 +17,7 @@
 .columns h4,
 .columns h5 {
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  color: white;
 }
 
 .columns h5 {
@@ -30,13 +31,13 @@
   justify-content: center;
 }
 
-.kitchen_type_1 {
+.image_type_1 {
   background-image: url('./images/linear-kitchen.jpg');
   background-size: cover;
   height: 100%;
 }
 
-.kitchen_type_2 {
+.image_type_2 {
   background-image: url('./images/u-shape.jpg');
   background-size: cover;
   background-position: center;
@@ -44,20 +45,20 @@
   height: 100%;
 }
 
-.kitchen_type_3 {
+.image_type_3 {
   background-image: url('./images/l-shape.jpg');
   background-size: cover;
   height: 100%;
 }
 
-.kitchen_type_4 {
+.image_type_4 {
   background-image: url('./images/side-by-side.jpg');
   background-size: cover;
   background-position: center;
   height: 100%;
 }
 
-.kitchen_type_5 {
+.image_type_5 {
   background-image: url('./images/bottom-freezer.jpeg');
   background-size: cover;
   background-position: center;
@@ -65,10 +66,30 @@
   height: 100%;
 }
 
-.kitchen_type_6 {
+.image_type_6 {
   background-image: url('./images/top-freezer.jpg');
   background-size: cover;
   background-position: center;
+  height: 100%;
+}
+
+.image_type_7 {
+  background-image: url('./images/granite.jpg');
+  background-size: cover;
+  background-position: center;
+  background-position-x: 10%;
+  height: 100%;
+}
+
+.image_type_8 {
+  background-image: url('./images/quartz.jpg');
+  background-size: cover;
+  height: 100%;
+}
+
+.image_type_9 {
+  background-image: url('./images/wood.jpeg');
+  background-size: cover;
   height: 100%;
 }
 
@@ -83,4 +104,10 @@
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   border: 1px solid white;
   padding: 10px;
+  width: 600px;
+  text-align: center;
+}
+
+.status_container h2 {
+  color: white;
 }

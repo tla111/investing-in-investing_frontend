@@ -16,6 +16,9 @@ function KitchenForm() {
   const handleSubmit = (e) => {
     e.preventDefault();
     dispatch(createKitchen(kitchenPostData));
+    alert(
+      'Your Kitchen Will Look Great. Check Out the Next Room for More Inspiration'
+    );
   };
 
   return (
@@ -52,7 +55,7 @@ function KitchenForm() {
             <option value='Bottom-Freezer'> Bottom-Freezer</option>
             <option value='Top-Freezer'> Top-Freezer</option>
           </select>
-          <label>Counter Top</label>
+          <label>CounterTop</label>
           <select
             onChange={(e) =>
               setKitchenPostData({
