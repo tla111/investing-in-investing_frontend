@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-import { Container, Row, Col, Button } from 'react-bootstrap';
+import { Container, Row, Col } from 'react-bootstrap';
 import './home.css';
 
 const Home = () => {
@@ -17,12 +17,12 @@ const Home = () => {
           <div className='images image_4'></div>
           <div className='section_box'>
             {/* <h1>What are you investing in your investment?</h1> */}
-            <h3>WHAT ARE YOU INVESTING IN FOR YOUR INVESTMENT?</h3>
-            <Button className='section_box_btn btn-dark'>
+            <h4>WHAT ARE YOU INVESTING IN FOR YOUR INVESTMENT?</h4>
+            <button className='section_box_btn'>
               <Link to='/realestate' className='link_button'>
                 LEARN MORE
               </Link>
-            </Button>
+            </button>
           </div>
         </Col>
       </Row>

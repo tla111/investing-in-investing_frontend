@@ -57,15 +57,19 @@
   align-items: center;
 }
 
-.section_box h3 {
+.section_box h4 {
   color: white;
+  font-size: 30px;
   font-family: 'Roboto';
   margin-top: 5px;
 }
 
 .section_box_btn {
   height: 40px;
-  margin-bottom: 5px;
+  width: 110px;
+  background-color: black;
+  border: none;
+  border-radius: 10%;
 }
 
 .link_button {
@@ -76,5 +80,5 @@
 .link_button:hover {
   text-decoration: none;
   color: white;
-  background-color: red;
+  background-color: rgb(34, 34, 34);
 }

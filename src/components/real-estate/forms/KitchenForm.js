@@ -66,10 +66,11 @@ function KitchenForm() {
             <option value='Quartz'> Quartz</option>
             <option value='Wood'> Wood</option>
           </select>
-          <Button variant='primary' type='submit'>
+          <Button className='form_btn' variant='primary' type='submit'>
             Submit
           </Button>
         </Form>
+        <h6 className='status'>Status: Form Submitted</h6>
       </div>
     </div>
   );

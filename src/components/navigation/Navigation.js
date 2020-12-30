@@ -7,11 +7,10 @@ import './nav.css';
 const Navigation = () => {
   return (
     <Nav className='navbar navbar-expand-lg navbar-dark bg-dark'>
-      <ul className='navbar-nav mx-auto'>
-        <li className='nav-item active'>
+      <ul className='navbar-nav ml-auto'>
+        <li className='nav-item'>
           <Link to='/' className='nav-link'>
             Home
-            <span className='sr-only'>(current)</span>
           </Link>
         </li>
         <li className='nav-item'>

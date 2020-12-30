@@ -1,26 +1,27 @@
 .form_container {
-  border: 1px solid black;
-  background-color: #12386a;
-  height: 250px;
+  border: 1px solid white;
+  height: 260px;
   width: 250px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-Form {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
 
-label,
-select {
-  margin-bottom: 5px;
+Form {
+  border: 1px solid red;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
-Button {
+label,
+select {
+  margin-top: 5px;
+}
+
+.form_btn {
+  margin-top: 5px;
   width: 100%;
 }
 
@@ -37,4 +38,8 @@ select {
   /* background-color: #133a6e; */
   background-color: black;
   color: white;
+}
+
+.status {
+  margin-top: 10px;
 }

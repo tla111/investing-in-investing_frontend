@@ -2,3 +2,13 @@
   background-color: black;
   height: 93vh;
 }
+
+.columns {
+  border: 1px solid white;
+}
+
+.first_column {
+  display: flex;
+  /* align-items: center; */
+  justify-content: center;
+}
