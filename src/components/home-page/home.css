@@ -1,45 +1,71 @@
-.top_row {
-  /* border: 2px solid black; */
-  /* background-color: black; */
-  height: 25vh;
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+.main_container {
+  background-color: black;
+  height: 100vh;
   width: 100vw;
 }
 
-.middle_row {
-  border: 1px solid black;
-  /* background-color: black; */
-  height: 50vh;
-  width: 100vw;
+.left_column,
+.right_column {
+  background-color: black;
+  height: 100vh;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  flex-direction: column;
+  justify-content: space-evenly;
 }
 
-.bottom_row {
-  /* border: 2px solid black; */
-  height: 25vh;
-  width: 100vw;
-}
-
-.center_columns {
-  /* border: 1px solid black; */
-  /* height: 50vh; */
-}
-
-.center_images {
+.house_images {
   background-size: cover;
   background-position: center;
-  height: 49vh;
+  height: 32vh;
+}
+
+.right_column {
+  /* background-color: black; */
+}
+
+.right_column .images {
+  border: 1px solid white;
+  background-size: cover;
+  background-position: center;
+  transform: rotateY(180deg);
+  height: 90vh;
 }
 
 .image_1 {
-  background-image: url('./images/living-room.jpg');
+  background-image: url('./images/main-kitchen.jpg');
 }
 
 .image_2 {
-  background-image: url('./images/main-kitchen.jpg');
+  background-image: url('./images/living-room.jpg');
 }
 
 .image_3 {
   background-image: url('./images/bedroom.jpg');
+}
+
+.image_4 {
+  background-image: url('./images/house.jpg');
+}
+
+.section_box {
+  background-color: red;
+  display: flex;
+  justify-content: space-evenly;
+  height: 8vh;
+  align-items: center;
+}
+
+.section_box h3 {
+  color: white;
+  font-family: 'Roboto';
+  margin-top: 5px;
+}
+
+.section_box button {
+  height: 40px;
+  margin-bottom: 5px;
+  background-color: black;
+  border: none;
 }

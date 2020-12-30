@@ -1,26 +1,24 @@
 import React from 'react';
-import { Container, Row, Col } from 'react-bootstrap';
+import { Container, Row, Col, Button } from 'react-bootstrap';
 import './home.css';
 
 const Home = () => {
   return (
     <Container fluid>
-      <Row className='top_row'>
-        <div className=''></div>
-      </Row>
-      <Row className='middle_row'>
-        <Col className='center_columns'>
-          <div className='center_images image_1'></div>
+      <Row className='main_container'>
+        <Col className='left_column' md={4}>
+          <div className='house_images image_1'></div>
+          <div className='house_images image_2'></div>
+          <div className='house_images image_3'></div>
         </Col>
-        <Col className='center_columns'>
-          <div className='center_images image_2'></div>
+        <Col className='right_column'>
+          <div className='images image_4'></div>
+          <div className='section_box'>
+            {/* <h1>What are you investing in your investment?</h1> */}
+            <h3>WHAT ARE YOU INVESTING IN FOR YOUR INVESTMENT?</h3>
+            <Button>LEARN MORE</Button>
+          </div>
         </Col>
-        <Col className='center_columns'>
-          <div className='center_images image_3'></div>
-        </Col>
-      </Row>
-      <Row className='bottom_row'>
-        <div></div>
       </Row>
     </Container>
   );
