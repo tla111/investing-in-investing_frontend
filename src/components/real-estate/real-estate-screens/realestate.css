@@ -50,6 +50,28 @@
   height: 100%;
 }
 
+.kitchen_type_4 {
+  background-image: url('./images/side-by-side.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 100%;
+}
+
+.kitchen_type_5 {
+  background-image: url('./images/bottom-freezer.jpeg');
+  background-size: cover;
+  background-position: center;
+  background-position-x: right;
+  height: 100%;
+}
+
+.kitchen_type_6 {
+  background-image: url('./images/top-freezer.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 100%;
+}
+
 .bottom_row {
   /* border: 1px solid red; */
   display: flex;

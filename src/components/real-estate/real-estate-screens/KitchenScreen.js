@@ -31,14 +31,16 @@ const KitchenScreen = () => {
             <h4>Refrigerator Style:</h4>
           </Col>
           <Col className='columns'>
-            <h5>Linear (Two Parallel Lines)</h5>
-            <div className='kitchen_type_1'></div>
+            <h5>Side-By-Side</h5>
+            <div className='kitchen_type_4'></div>
           </Col>
           <Col className='columns'>
-            <div className='kitchen_type_1'></div>
+            <h5>Bottom-Freezer</h5>
+            <div className='kitchen_type_5'></div>
           </Col>
           <Col className='columns'>
-            <div className='kitchen_type_1'></div>
+            <h5>Top-Freezer</h5>
+            <div className='kitchen_type_6'></div>
           </Col>
         </Row>
         <Row>
@@ -59,7 +61,7 @@ const KitchenScreen = () => {
         <Row className='bottom_row'>
           <KitchenForm />
           <div className='status_container'>
-            <h2>Status: Form Submitted</h2>
+            <h2>Choose Your Ideal Kitchen</h2>
           </div>
         </Row>
       </Container>
