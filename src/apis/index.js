@@ -40,3 +40,22 @@ export const createLivingRoomPost = (newLivingRoomPost) =>
     )
     .then((res) => console.log(res))
     .catch((error) => console.log(error));
+
+export const createBedRoomPost = (newBedRoomPost) =>
+  axios
+    .post(
+      `${url}/bedroom/`,
+      {
+        beds: newBedRoomPost.beds,
+        dressers: newBedRoomPost.dressers,
+        desks: newBedRoomPost.desks,
+      },
+      {
+        headers: {
+          Authorization: `AUTHORIZATION_KEY`,
+          'Content-Type': 'application/json',
+        },
+      }
+    )
+    .then((res) => console.log(res))
+    .catch((error) => console.log(error));

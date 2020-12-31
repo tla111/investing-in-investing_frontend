@@ -35,3 +35,13 @@ export const createLivingRoom = (post) => async (dispatch) => {
     console.log(error);
   }
 };
+
+export const createBedRoom = (post) => async (dispatch) => {
+  try {
+    await api.createBedRoomPost(post);
+
+    // const { data } = await api.createBedRoomPost(post);
+  } catch (error) {
+    console.log(error);
+  }
+};
