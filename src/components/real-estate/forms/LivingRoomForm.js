@@ -30,7 +30,7 @@ function LivingRoomForm() {
             onChange={(e) =>
               setLivingRoomPostData({
                 ...livingRoomPostData,
-                room_shape: e.target.value,
+                sofas: e.target.value,
               })
             }
           >
@@ -49,7 +49,7 @@ function LivingRoomForm() {
             onChange={(e) =>
               setLivingRoomPostData({
                 ...livingRoomPostData,
-                refrigerator_style: e.target.value,
+                televisions: e.target.value,
               })
             }
           >
@@ -63,7 +63,7 @@ function LivingRoomForm() {
             onChange={(e) =>
               setLivingRoomPostData({
                 ...livingRoomPostData,
-                counter_top: e.target.value,
+                chairs: e.target.value,
               })
             }
           >
