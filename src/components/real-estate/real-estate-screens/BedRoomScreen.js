@@ -13,15 +13,15 @@ const BedRoomScreen = () => {
           </Col>
           <Col className='columns '>
             <h5>Twin</h5>
-            <div className='living_room_type_1'></div>
+            <div className='bed_room_type_1'></div>
           </Col>
           <Col className='columns'>
             <h5>Full</h5>
-            <div className='living_room_type_2'></div>
+            <div className='bed_room_type_2'></div>
           </Col>
           <Col className='columns'>
             <h5>Queen</h5>
-            <div className='living_room_type_3'></div>
+            <div className='bed_room_type_3'></div>
           </Col>
         </Row>
         <Row>
@@ -30,15 +30,15 @@ const BedRoomScreen = () => {
           </Col>
           <Col className='columns'>
             <h5>Horizontal</h5>
-            <div className='living_room_type_4'></div>
+            <div className='bed_room_type_4'></div>
           </Col>
           <Col className='columns'>
             <h5>Vertical</h5>
-            <div className='living_room_type_5'></div>
+            <div className='bed_room_type_5'></div>
           </Col>
           <Col className='columns'>
             <h5>Gentlemen Chest</h5>
-            <div className='living_room_type_6'></div>
+            <div className='bed_room_type_6'></div>
           </Col>
         </Row>
         <Row>
@@ -47,15 +47,15 @@ const BedRoomScreen = () => {
           </Col>
           <Col className='columns'>
             <h5>Modern</h5>
-            <div className='living_room_type_7'></div>
+            <div className='bed_room_type_7'></div>
           </Col>
           <Col className='columns'>
             <h5>Small</h5>
-            <div className='living_room_type_8'></div>
+            <div className='bed_room_type_8'></div>
           </Col>
           <Col className='columns'>
             <h5>Corner</h5>
-            <div className='living_room_type_9'></div>
+            <div className='bed_room_type_9'></div>
           </Col>
         </Row>
         <Row className='bottom_row'>

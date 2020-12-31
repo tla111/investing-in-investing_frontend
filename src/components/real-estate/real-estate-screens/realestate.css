@@ -156,6 +156,67 @@
   height: 100%;
 }
 
+.bed_room_type_1 {
+  background-image: url('./images/twin.jpg');
+  background-size: cover;
+  background-position-y: 10%;
+  height: 100%;
+}
+
+.bed_room_type_2 {
+  background-image: url('./images/full.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 100%;
+}
+
+.bed_room_type_3 {
+  background-image: url('./images/queen.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 100%;
+}
+
+.bed_room_type_4 {
+  background-image: url('./images/horizontal.jpeg');
+  background-size: cover;
+  background-position: center;
+  height: 100%;
+}
+
+.bed_room_type_5 {
+  background-image: url('./images/vertical.jpeg');
+  background-size: cover;
+  background-position: center;
+  height: 100%;
+}
+
+.bed_room_type_6 {
+  background-image: url('./images/gentlemen.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 100%;
+}
+
+.bed_room_type_7 {
+  background-image: url('./images/modern.jpg');
+  background-size: cover;
+  height: 100%;
+}
+
+.bed_room_type_8 {
+  background-image: url('./images/small.jpg');
+  background-size: cover;
+  height: 100%;
+}
+
+.bed_room_type_9 {
+  background-image: url('./images/corner.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 100%;
+}
+
 .bottom_row {
   /* border: 1px solid red; */
   display: flex;
