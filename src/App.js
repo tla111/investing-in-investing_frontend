@@ -7,6 +7,7 @@ import Home from './components/home-page/Home';
 import Navigation from './components/navigation/Navigation';
 import KitchenScreen from './components/real-estate/real-estate-screens/KitchenScreen';
 import LivingRoomScreen from './components/real-estate/real-estate-screens/LivingRoomScreen';
+import BedRoomScreen from './components/real-estate/real-estate-screens/BedRoomScreen';
 
 function App() {
   return (
@@ -25,7 +26,7 @@ function App() {
         </Route>
         <Route exact path='/bedroom'>
           <Navigation />
-          <KitchenScreen />
+          <BedRoomScreen />
         </Route>
       </Switch>
     </Router>

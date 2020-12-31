@@ -35,7 +35,7 @@ function BedRoomForm() {
             }
           >
             <option value=''>--Please choose an option--</option>
-            <option value='Twin)'>Twin)</option>
+            <option value='Twin'>Twin</option>
             <option value='Full'> Full</option>
             <option value='Queen'> Queen</option>
           </select>
