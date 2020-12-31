@@ -13,15 +13,15 @@ const KitchenScreen = () => {
           </Col>
           <Col className='columns '>
             <h5>Chesterfield (Classic)</h5>
-            <div className='image_type_1'></div>
+            <div className='living_room_type_1'></div>
           </Col>
           <Col className='columns'>
             <h5>Mid-Century (Modern)</h5>
-            <div className='image_type_2'></div>
+            <div className='living_room_type_2'></div>
           </Col>
           <Col className='columns'>
             <h5>Lawson (Transitional)</h5>
-            <div className='image_type_3'></div>
+            <div className='living_room_type_3'></div>
           </Col>
         </Row>
         <Row>
@@ -30,15 +30,15 @@ const KitchenScreen = () => {
           </Col>
           <Col className='columns'>
             <h5>OLED</h5>
-            <div className='image_type_4'></div>
+            <div className='living_room_type_4'></div>
           </Col>
           <Col className='columns'>
             <h5>LED</h5>
-            <div className='image_type_5'></div>
+            <div className='living_room_type_5'></div>
           </Col>
           <Col className='columns'>
             <h5>Plasma</h5>
-            <div className='image_type_6'></div>
+            <div className='living_room_type_6'></div>
           </Col>
         </Row>
         <Row>
@@ -47,15 +47,15 @@ const KitchenScreen = () => {
           </Col>
           <Col className='columns'>
             <h5>Egg</h5>
-            <div className='image_type_7'></div>
+            <div className='living_room_type_7'></div>
           </Col>
           <Col className='columns'>
             <h5>Wingback</h5>
-            <div className='image_type_8'></div>
+            <div className='living_room_type_8'></div>
           </Col>
           <Col className='columns'>
             <h5>Chaise Lounge</h5>
-            <div className='image_type_9'></div>
+            <div className='living_room_type_9'></div>
           </Col>
         </Row>
         <Row className='bottom_row'>

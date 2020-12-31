@@ -32,13 +32,13 @@
   justify-content: center;
 }
 
-.image_type_1 {
+.kitchen_type_1 {
   background-image: url('./images/linear-kitchen.jpg');
   background-size: cover;
   height: 100%;
 }
 
-.image_type_2 {
+.kitchen_type_2 {
   background-image: url('./images/u-shape.jpg');
   background-size: cover;
   background-position: center;
@@ -46,20 +46,20 @@
   height: 100%;
 }
 
-.image_type_3 {
+.kitchen_type_3 {
   background-image: url('./images/l-shape.jpg');
   background-size: cover;
   height: 100%;
 }
 
-.image_type_4 {
+.kitchen_type_4 {
   background-image: url('./images/side-by-side.jpg');
   background-size: cover;
   background-position: center;
   height: 100%;
 }
 
-.image_type_5 {
+.kitchen_type_5 {
   background-image: url('./images/bottom-freezer.jpeg');
   background-size: cover;
   background-position: center;
@@ -67,14 +67,14 @@
   height: 100%;
 }
 
-.image_type_6 {
+.kitchen_type_6 {
   background-image: url('./images/top-freezer.jpg');
   background-size: cover;
   background-position: center;
   height: 100%;
 }
 
-.image_type_7 {
+.kitchen_type_7 {
   background-image: url('./images/granite.jpg');
   background-size: cover;
   background-position: center;
@@ -82,15 +82,77 @@
   height: 100%;
 }
 
-.image_type_8 {
+.kitchen_type_8 {
   background-image: url('./images/quartz.jpg');
   background-size: cover;
   height: 100%;
 }
 
-.image_type_9 {
+.kitchen_type_9 {
   background-image: url('./images/wood.jpeg');
   background-size: cover;
+  height: 100%;
+}
+
+.living_room_type_1 {
+  background-image: url('./images/chesterfield.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 100%;
+}
+
+.living_room_type_2 {
+  background-image: url('./images/mid-century.jpeg');
+  background-size: cover;
+  background-position: center;
+  height: 100%;
+}
+
+.living_room_type_3 {
+  background-image: url('./images/lawson.jpg');
+  background-size: cover;
+  height: 100%;
+}
+
+.living_room_type_4 {
+  background-image: url('./images/oled.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 100%;
+}
+
+.living_room_type_5 {
+  background-image: url('./images/led.jpeg');
+  background-size: cover;
+  background-position: center;
+  height: 100%;
+}
+
+.living_room_type_6 {
+  background-image: url('./images/plasma.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 100%;
+}
+
+.living_room_type_7 {
+  background-image: url('./images/egg.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 100%;
+}
+
+.living_room_type_8 {
+  background-image: url('./images/wingback.jpeg');
+  background-size: cover;
+  background-position-y: 35%;
+  height: 100%;
+}
+
+.living_room_type_9 {
+  background-image: url('./images/chaise.jpg');
+  background-size: cover;
+  background-position: center;
   height: 100%;
 }
 
